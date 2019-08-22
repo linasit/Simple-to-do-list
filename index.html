@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TO DO Application</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class='wrapper'>
+        <header> 
+            <h1>To-do</h1>         
+                <div class="container">
+                    <input type="text" name="add" id="add" placeholder="Ką reikia atlikti?"/>                     
+                </div>
+        </header>
+        <main>
+            <div class='text-wrapper'>
+                <p>Užduotys</p> <span class='text' id='mainTask'>- </span>
+            </div>
+            <div class="container" id="list">
+                
+            </div>
+        </main>
+        <footer id='footer'>
+            <div class='container'>
+                <div class='text-wrapper'>
+                   <p>Atliktos</p> <span class='text' id='footerTask'>- </span>
+                </div>
+                  <div id='result'>
+                    
+                  </div>
+            </div>
+        </footer>
+    </div>
+    <script src='todo.js'></script>
+</body>
+</html>

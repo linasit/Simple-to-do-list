@@ -1,0 +1,83 @@
+*{
+    box-sizing:border-box;
+}
+h1 {
+    color:#4fa4fa;
+}
+p {
+    color:#999;
+    font-weight: bolder;
+}
+body {
+    background-color:#edf0f1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer {
+    display:flex;
+}
+.footp {
+    font-size:0.9rem;
+    text-decoration-line: line-through;
+    font-weight: normal;
+}
+.text-wrapper {
+    display: inline-flex;
+    flex-direction: row;
+}
+.text {
+    font-size:0.7rem;
+    margin-top:18.5px;
+    padding-left:4px;
+    color:#ccc;
+    font-weight: bold;
+}
+.wrapper {
+    max-width: 350px;
+    margin:0 auto;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+}
+input[name='add'] {
+    padding:11px;
+    border:2px solid #eee;
+    margin-bottom:8px;
+}
+
+.todo {
+    display: inline-flex;
+    justify-content: space-between;
+    padding:4px;
+    border:1px solid #eeeeee;
+    box-shadow:1px 1px 4px 0 #ccc;
+    margin-bottom:10px;
+    background-color:#fafafa;
+    color:#ccc;
+}
+.wrapHTML {
+
+    display: flex;
+    flex-direction: column;
+    padding-left:10px;
+    padding-top:2px;
+}
+.dateHTML {
+
+    font-size:0.7em;
+}
+.valueHTML {
+
+    color:#888;
+}
+i {
+    float:right;
+    font-size:0.8em;
+    padding:10px;
+   
+}
+i:hover {
+    color:green;
+}
+
+
